@@ -7,4 +7,5 @@ phases:
       - mv ../01 spain
       - mv ../02 ireland
       - zip ../app.zip -r * .[^.]*
+      - cp ../app.zip .
 version: 0.2
