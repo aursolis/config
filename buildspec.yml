@@ -1,6 +1,7 @@
 artifacts: 
   files: 
     - 00/**/*
+  name: ebApp
 phases:
   build:
     commands:
