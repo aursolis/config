@@ -5,7 +5,8 @@ phases:
   build:
     commands:
       - ls
-      - mv ../01 spain
-      - mv ../02 ireland
-      - zip app.zip -r * .[^.]*
+      - mv ../01 ./spain
+      - mv ../02 ./ireland
+      - mv ../00 app
+      - zip app.zip -r app
 version: 0.2
