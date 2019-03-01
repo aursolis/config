@@ -6,8 +6,8 @@ phases:
     commands: 
       - mkdir ireland
       - mkdir spain
-      - cp ../01/* spain/
-      - cp ../02/* ireland/
+      - cp -a ../01/ spain/
+      - cp -a ../02/ ireland/
       - ls
       - zip app.zip -r * .[^.]*
 version: 0.2
