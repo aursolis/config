@@ -1,0 +1,13 @@
+artifacts: 
+  files: 
+    - app.zip
+phases: 
+  install: 
+    commands: 
+      - mkdir ireland
+      - mkdir spain
+      - cp ../01/* spain/
+      - cp ../02/* ireland/
+      - ls
+      - zip app.zip -r * .[^.]*
+version: 0.2
