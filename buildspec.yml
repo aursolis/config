@@ -2,13 +2,9 @@ artifacts:
   files: 
     - app.zip
 phases:
-  install: 
-    commands:
-      - yum install tree
-      - tree
-      - ls
   build:
     commands:
+      - ls
       - mv ../01 spain
       - mv ../02 ireland
       - zip app.zip -r * .[^.]*
