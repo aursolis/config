@@ -6,5 +6,5 @@ phases:
     commands: 
       - mv ../01 spain
       - mv ../02 ireland
-      - zip myapp.zip -r * .[^.]*
+      - zip ../app.zip -r * .[^.]*
 version: 0.2
