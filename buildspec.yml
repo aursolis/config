@@ -4,6 +4,7 @@ artifacts:
 phases: 
   install: 
     commands: 
-      - ls
+      - mv 01 spain
+      - mv 02 ireland
       - zip app.zip -r * .[^.]*
 version: 0.2
