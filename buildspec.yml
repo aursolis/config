@@ -1,11 +1,10 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - mv ../01 spain
+      - mv ../02 ireland
 artifacts: 
   files: 
     - '**/*'
   name: ebApp
-phases:
-  build:
-    commands:
-      - ls
-      - mv ../01 spain
-      - mv ../02 ireland
-version: 0.2
