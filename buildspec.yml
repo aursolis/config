@@ -4,10 +4,6 @@ artifacts:
 phases: 
   install: 
     commands: 
-      - mkdir ireland
-      - mkdir spain
-      - cp -a ../01/. spain/
-      - cp -a ../02/. ireland/
       - ls
       - zip app.zip -r * .[^.]*
 version: 0.2
