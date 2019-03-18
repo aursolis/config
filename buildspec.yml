@@ -2,6 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
+      - date
       - mv ../01 spain
       - mv ../02 ireland
 artifacts: 
